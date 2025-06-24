@@ -1,0 +1,82 @@
+h2 {font: size 0.6250em;
+     background-color: rgba(32, 124, 113, 0.395); 
+     text-align: center;
+     text-shadow: 200em;
+    }
+    .center {border-radius: 60%; scroll-padding: 50%; margin-left: auto; margin-right: auto; display: block;}
+/* Navbar */
+nav {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+.tool-bar {
+    float: right;
+}
+p {text-align:left;  
+     font-size: 16px; 
+     background-color: bisque; 
+     width: 60%; 
+}
+
+.box {background-color: rgb(255, 245, 238);}
+.container {
+    flex-direction: column;
+    height: 500px;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    display: flex; background-image: url(assets/c59177f0-2d58-4891-8d08-465652f79752.jpg.png) ;
+}
+
+/* About Me */
+.about-pic {
+        width: 200px;
+}
+/* Skills */
+.Skills {
+    text-align: center;
+}
+
+section {background-color: rgb(240, 255, 255);}
+
+span {
+    color: blue;
+}
+div.container { 
+    text-align: center;
+}
+ul.skillUL 
+{
+    text-align: left;
+}
+/* Footer */
+footer {
+    font-size: large;
+}
+/* Address */
+address {
+    font-size: large; 
+    background-color: aquamarine; 
+    text-align: right; 
+    min-width: fit-content; 
+    min-height: fit-content;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px){
+p {font-size: 14px;} 
+body {position: absolute}
+}
